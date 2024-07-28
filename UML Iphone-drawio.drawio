@@ -1,0 +1,72 @@
+<mxfile host="app.diagrams.net" modified="2024-07-28T16:40:27.337Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 OPR/112.0.0.0" etag="jbR-NWC0bfbqMy2XQhdT" version="24.4.14" type="device">
+  <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
+    <mxGraphModel dx="1030" dy="464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Vaie5HWL8gmsCI3MEyMJ-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vaie5HWL8gmsCI3MEyMJ-42" target="Vaie5HWL8gmsCI3MEyMJ-60">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="413" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vaie5HWL8gmsCI3MEyMJ-42" value="&amp;gt;Interface&amp;lt;&lt;div&gt;AparelhoTelefonico&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="510" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Vaie5HWL8gmsCI3MEyMJ-43" value="+ ligar (int numero)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Vaie5HWL8gmsCI3MEyMJ-42">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vaie5HWL8gmsCI3MEyMJ-44" value="+ atender()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Vaie5HWL8gmsCI3MEyMJ-42">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vaie5HWL8gmsCI3MEyMJ-45" value="+ iniciarCorreiroVoz()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Vaie5HWL8gmsCI3MEyMJ-42">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vaie5HWL8gmsCI3MEyMJ-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vaie5HWL8gmsCI3MEyMJ-46" target="Vaie5HWL8gmsCI3MEyMJ-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vaie5HWL8gmsCI3MEyMJ-46" value="&lt;div&gt;&amp;gt;Interface&amp;lt;&lt;/div&gt;Navegador" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="510" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Vaie5HWL8gmsCI3MEyMJ-47" value="+ exibirPagina(String url)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Vaie5HWL8gmsCI3MEyMJ-46">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vaie5HWL8gmsCI3MEyMJ-48" value="+ adicionarNovaAba()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Vaie5HWL8gmsCI3MEyMJ-46">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vaie5HWL8gmsCI3MEyMJ-49" value="+ atualizarPagina()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Vaie5HWL8gmsCI3MEyMJ-46">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vaie5HWL8gmsCI3MEyMJ-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vaie5HWL8gmsCI3MEyMJ-50" target="Vaie5HWL8gmsCI3MEyMJ-60">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="413" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vaie5HWL8gmsCI3MEyMJ-50" value="&amp;gt;Interface&amp;lt;&lt;div&gt;ReprodutorMusical&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="510" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Vaie5HWL8gmsCI3MEyMJ-51" value="+ tocar()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Vaie5HWL8gmsCI3MEyMJ-50">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vaie5HWL8gmsCI3MEyMJ-52" value="+ pausar()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Vaie5HWL8gmsCI3MEyMJ-50">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vaie5HWL8gmsCI3MEyMJ-53" value="+ selecionarMusica(String Muisca)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Vaie5HWL8gmsCI3MEyMJ-50">
+          <mxGeometry y="90" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Vaie5HWL8gmsCI3MEyMJ-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vaie5HWL8gmsCI3MEyMJ-60" target="Vaie5HWL8gmsCI3MEyMJ-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vaie5HWL8gmsCI3MEyMJ-60" value="Iphone_um" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="383" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vaie5HWL8gmsCI3MEyMJ-67" value="Tela" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="243" width="140" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
